@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Robot';
+    src: url('fonts/Roboto.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body,html{
+    height:100%;
+    margin:1px 3px;
+    font-family: 'Robot';
+}
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.legenda{
+    display: flex;
+    justify-content: flex-end;
+    width:100%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius:5px;
+}
+.head {
+    margin-bottom:5px;
+    height:10vh;
+    border-radius:5px;
+}
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.day {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height:16vh;
+    font-size:20px;
+    text-align: left;
+    margin:2px;
+    padding:4px;
+}
+.today{
+    width: 1.7vw;
+    height: 1.7vw;
+    border: 2px cornflowerblue solid;
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.everyday{
+    width: 1.2vw;
+    height: 1.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.empty{
+    border:none;
+}
+.weekend{
+    background-color: gainsboro;
+}
+.header_date{
+    color:white;
+    font-size:40px;
+    margin:auto 10px;
+    text-align: center;
+}
+.small {
+    font-size: 30px;
+}
+.not_running{
+    background-color: #ed7421;
+}
+.running{
+    background-color: #ed7421;
+}
+.header_image{
+    height:100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width:auto;
+}
+.grande{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:2px;
+    padding: 0px 1px;
+    border: 2px #ed7a29 solid;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.piccola{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:2px;
+    padding: 0px 1px;
+    border:2px #75d868 solid;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.grande_box{
+    color:#ed7a29;
+    border-radius: 50%;
+    background-color: #ed7a29;
+}
+.piccola_box{
+    color: #75d868;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #75d868;
+}
