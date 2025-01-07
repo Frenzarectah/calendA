@@ -5,9 +5,10 @@ Web Application created in vue.js in order to take meetings from Microsoft Graph
 Please type <br> 
 <code>npm install</code><br> 
 to download all the packages needed.<br>
-Then you have to 
+Then you have to access the page <code>index.html</code> directly from your browser.<br>
 
-This project is only for demostrating purpose, the API refers to internal proxy, for security reasons.
-Here's a screenshot of the app in a browser:
+This project is only for demostrating purpose, the API refers to internal proxy, for security reasons.<br>
+Here's a screenshot of the app in a browser:<hr>
 
-<img width="748" alt="Screenshot 2025-01-07 alle 12 53 46" src="https://github.com/user-attachments/assets/a8a88179-dffd-4c6c-8eb0-df115c4462f9" />
+<img width="748" alt="Screenshot 2025-01-07 alle 13 02 06" src="https://github.com/user-attachments/assets/ff8eef44-21ce-41f8-8f9c-08de1d931bab" />
+
