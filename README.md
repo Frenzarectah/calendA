@@ -10,5 +10,13 @@ Then you have to access the page <code>index.html</code> directly from your brow
 This project is only for demostrating purpose, the API refers to internal proxy, for security reasons.<br>
 Here's a screenshot of the app in a browser:<hr>
 
+# Main Featurz
+
+> Supports several events per day
+> Has 2 differents Meeting Rooms (borded with different colors)
+> Has a "On Going Event" script which reports if an event is running right now
+> It's free and cute (:
+
 <img width="748" alt="Screenshot 2025-01-07 alle 13 02 06" src="https://github.com/user-attachments/assets/ff8eef44-21ce-41f8-8f9c-08de1d931bab" />
+
 
